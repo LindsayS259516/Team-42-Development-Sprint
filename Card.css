@@ -1,0 +1,56 @@
+﻿h5 { font-size: 90%; font-weight: bold; margin-top: 4px; margin-bottom: 8px; color:#262626; font-family: verdana, sans-serif;}
+
+.whitetext { color: white; }
+
+.card { background: white; margin-bottom: 8px; padding:8px;}
+.card:hover { box-shadow: 3px 3px 8px #666666; }
+
+.card_a { background: #00284d; color: white; text-decoration: none; margin-bottom: 8px; padding:1rem;}
+.card_a:hover { box-shadow: 3px 3px 8px #33ff33;}
+
+.card-content { padding: 1em;}
+.card-content h2 { margin-top: 0; margin-bottom: .5em; font-weight: bold; }
+.card-content p { font-size: 80%;}
+
+.card_a-content { padding: 1em;}
+.card_a-content h2 { margin-top: 0; margin-bottom: .5em; font-weight: bold; }
+.card_a-content p { font-size: 80%;}
+
+.cards { display: flex; flex-wrap: wrap; }
+
+.card { flex: 1 0 500px; box-sizing: border-box; margin: 8px;}
+.card_a { flex: 1 0 500px; box-sizing: border-box; margin: 8px;}
+
+
+@media screen and (min-width: 40em) {
+    .card { max-width: calc(50% -  1em);}
+}
+
+@media screen and (min-width: 60em) {
+    .card { max-width: calc(33% - 1em); }
+}
+
+.centered { margin: 0 auto; padding: 0 1em;}
+
+@media screen and (min-width: 52em) {
+    .centered { max-width: 52em;}
+}
+
+
+@media screen and (min-width: 40em) {
+    .card_a { max-width: calc(50% -  1em);}
+}
+
+@media screen and (min-width: 60em) {
+    .card_a { max-width: calc(33% - 1em); }
+}
+
+.centered { margin: 0 auto; padding: 0 1em;}
+
+@media screen and (min-width: 52em) {
+    .centered { max-width: 52em;}
+}
+
+img { max-width: 97%; max-height: 100px; object-fit: fill; object-position: center bottom; display: block; margin-left: auto; margin-right: auto; }
+
+p.big {line-height: 1.8;}

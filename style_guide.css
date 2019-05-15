@@ -1,0 +1,48 @@
+﻿    body {font-family: verdana, sans-serif; background-color: #ececf9; padding: 15px; margin: 0px 50px 50px 25px;}
+	
+    h1 { font-size: 200%; font-weight: normal; margin-top: 20px; margin-bottom: 5px; color:#262626; font-weight: bold; font-family: Georgia, serif; }
+
+    h2 { font-size: 150%; font-weight: normal; margin-top: 20px; margin-bottom: 5px; color:#262626; font-weight: bold; font-family:"Trebuchet MS", Helvetica, sans-serif }
+
+    h3 { font-size: 100%; font-weight: bold; margin-top: 20px; margin-bottom: 5px;color:#262626; font-family: verdana, sans-serif;}
+
+    h4 { font-size: 90%; font-weight: normal; margin-top: 20px; margin-bottom: 5px; color:#262626; font-family: verdana, sans-serif; text-decoration: underline; }
+
+    p {font-size:13px;}
+
+    p.heavy { font-weight: bold; margin-top: 5px;font-family: verdana, sans-serif;}
+
+    p.italic { font-weight: normal; margin-top: 5px;font-family: verdana, sans-serif;font-style: italic;}
+
+    a { color: #000099; text-transform: uppercase;}
+    a:active { background-color:  #b3b3cc;}
+    a:hover { cursor: pointer; color: #3333ff;font-weight: bold;}
+    a:visited { color: #800080;}
+
+    .button { display: inline-block; padding: 10px 15px; font-size: 16px; cursor: pointer; text-align: center; margin-top: 10px;
+              outline: none; color: #262626; background-color: #c1c1d7; border: 2px solid #a6a6a6; border-radius: 8px; box-shadow: 0 5px #999;}
+    .button:hover {background-color: #666ff; color:#63639c;}
+    .button:active { background-color: #8383af; color:#cccccc; box-shadow: 0 5px #666; transform: translateY(4px);}
+
+    ul.a {list-style-type: square;font-size:12px}
+    ul.b {list-style-type: circle;font-size:12px}
+    ol.c {list-style-type: decimal;font-size:12px}
+    ol.d {list-style-type: lower-roman;font-size:12px}
+
+    .square { width: 50px; height: 50px; border: 1px solid #0d0d0d; margin-bottom: 20px; }
+
+    .primary{ background:#1a1aff;}
+    .secondary{ background:#bb99ff;}
+    .dark{ background:#00284d;}
+    .light{ background:#cce6ff;}
+    .highlight{ background:#33ff33;}
+
+    table { table-layout: fixed; width: 70%; border-collapse: collapse; border: 1.5px solid black; font-size: 75%}
+    thead th:nth-child(1) { width: 40%;}
+    th, td { padding: 5px;}
+    table { background-color: #e0ebeb;}
+    tbody tr:nth-child(odd) { background-color: #85adad;}
+    tbody tr:nth-child(even) { background-color: #c2d6d6;}
+    tbody td { text-align: center; }
+    tfoot th { text-align: right; }
+    caption {font-family: 'Arial'; padding: 5px; font-style: italic;caption-side: bottom; color: #1e2f2f; text-align: left;}
