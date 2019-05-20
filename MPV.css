@@ -6,7 +6,7 @@
 
 #footer {float:center; clear:both; background: #00284d; color: white; text-align: center;}
 
-#nav { align: left; width: 91%; height: 30px; padding:5px 20px 20px 20px; background: #00284d; color: white; }
+nav { align: left; width: 91%; height: 30px; padding:5px 20px 20px 20px; background: #00284d; color: white; }
 
 ul { list-style-type: none; margin: 0; padding: 0;}
 
